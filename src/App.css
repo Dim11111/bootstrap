@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.col-md-2{
+  background: #61dafb;
+}
+.row{
+  --bs-gutter-x:0rem;
+}
+
+.foot{
+  margin-left: 20px;
+  color: lightblue;
+
+}
+.name{
+  border-color: lightblue;
+}
