@@ -7,9 +7,9 @@ const Item = (props) => {
 
     <main>
         <div className='row row-cols-1 justify-content-evenly 
-        row-cols-md-2 row-cols-sm-2 text-center'>
+        row-cols-md-8 row-cols-sm-2 text-center'>
             <div className='col px-3 py-3'>
-                <div className='card md-6 rounded'>
+                <div className='card md-5 rounded'>
                     <div className='card-header py-2 px-3'>
                         <button type='button' className='w-100 btn btn-lg btn-primary'>
                            добавить в избранное

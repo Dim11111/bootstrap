@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Slider from './components/Slider';
 import CardItem from './components/cart/CardItem';
 import Footer from './components/Footer';
+import Description from './components/Description';
 import { useState} from 'react';
 
 function App() {
@@ -22,6 +23,7 @@ fetch('https://643477f6582420e2317cdf67.mockapi.io/tyrs').then(
     <div>
       <Header/>
       <Slider/>
+      <Description/>
       <CardItem item={tyrs}/>
       <Footer/>
     </div>
